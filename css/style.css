@@ -144,6 +144,18 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    animation: fadeIn 3s linear alternate;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .intro__logo {
@@ -151,6 +163,8 @@ p {
 
     box-shadow: 0 1px 5px rgba(0, 0, 0, .05) inset;
 }
+
+
 
 .intro__title {
     padding: 1rem 1rem;
